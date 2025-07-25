@@ -10,8 +10,30 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    border: 1px;
 }
 aside {
     flex: 1;
     overflow-y: auto;
+}
+footer {
+    color: white;
+    background-color: black;
+}
+header {
+    color: white;
+    background-color: gainsboro;
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-image: url(./typewriter-photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
 }
